@@ -28,6 +28,28 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a, button {
+    transition: color 0.3s, background-color 0.3s;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #0078d7;
+    background-color: #0078d7;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+    border-color: #005bb5;
+}
 
 body {
 	line-height: 1;
