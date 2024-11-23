@@ -4685,5 +4685,25 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
+		/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .button {
+    background-color: #333;
+    color: #fff;
+    border-color: #444;
+}
+
 
 	}
